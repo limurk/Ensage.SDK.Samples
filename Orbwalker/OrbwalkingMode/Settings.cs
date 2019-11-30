@@ -15,7 +15,7 @@ namespace OrbwalkingMode
 
         public Settings(MenuFactory parent)
         {
-            this.factory = parent.Menu("Zeus Q farm mode");
+            this.factory = parent.Menu("Sky Q farm mode");
 
             this.Active = this.factory.Item("Active", true);
             this.Key = this.factory.Item("Key", new KeyBind('D'));
